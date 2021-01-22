@@ -97,6 +97,8 @@ Type: files; Name: "{app}\doorstop_config.ini"; Components: BepInEx
 Type: filesandordirs; Name: "{app}\VR_Kanojo_Data\Managed"; Components: Patch
 Type: filesandordirs; Name: "{app}\VR_Kanojo_Data\Mono"; Components: Patch
 
+Type: filesandordirs; Name: "{app}\BepInEx\Uncensors"; Components: XUnityResourceRedirector\Selector\Pack
+
 [Tasks]
 Name: desktopicon; Description: "{cm:TaskIcon}"; Flags: unchecked
 Name: delete; Description: "{cm:TaskDelete}";
