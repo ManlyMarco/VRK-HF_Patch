@@ -2,9 +2,7 @@
 # HF Patch for VR Kanojo (Steam version)
 An unofficial patch for [VR Kanojo](https://store.steampowered.com/app/751440/VR_Kanojo__VR/) with all free updates, fan-made English translations and essential mods.
 
-### [Read the full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) to learn more about what it is, what it does, how to use it, and how to solve common issues.
-
-All content is tested and fixed (or removed) as needed before each update. HF Patch can repair many common problems, try it if you have issues with your game or mod setup. By default, it cleans the game before applying new mods, providing a stable platform for further modding.
+#### [Read the full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) to learn more about what it is, what it does, how to use it, and how to solve common issues.
 
 ## Important notes, please read
 - Do not use uncensors that replace files inside `abdata` with this patch (or any other mods that replace game files). New uncensors should go inside `BepInEx\Uncensors` and have a `UncensorInfo.xml` file added to them, check existing uncensors for an example.
