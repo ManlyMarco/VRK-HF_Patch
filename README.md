@@ -15,7 +15,7 @@ An unofficial patch for [VR Kanojo](https://store.steampowered.com/app/751440/VR
 ## Download
 Check the [Releases](https://github.com/ManlyMarco/VRK-HF_Patch/releases) page for download links.
 
-If the default install path of the patch doesn't work (if for example you moved your Steam library to a different folder), you have to point the patch to where the game is installed. If you are not sure where to look, you can see where the game is installed to fromyour Steam library: First find the game, then go to `Properties > Local files > Browse`.
+If the default install path of the patch doesn't work (if for example you moved your Steam library to a different folder), you have to point the patch to where the game is installed. If you are not sure where to look: Find the game in the library, then go to `Properties > Local files > Browse` and point the patch to the folder than opens (it should have `VR Kanojo.exe` in it).
 
 Read [the full manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) for detailed download and install instructions.
 

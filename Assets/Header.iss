@@ -12,12 +12,12 @@ AppendDefaultDirName=no
 
 SolidCompression=yes
 
-WizardSmallImageFile=_Common\hf.bmp
+WizardSmallImageFile=Assets\hf.bmp
 WizardImageStretch=no
 WizardImageBackColor=$FFFFFF
-WizardImageFile=banner.bmp
-SetupIconFile=icon.ico
-InfoBeforeFile=INFO.rtf
-LicenseFile=LICENSE_page
+WizardImageFile=Assets\banner.bmp
+SetupIconFile=Assets\icon.ico
+InfoBeforeFile=Assets\INFO.rtf
+LicenseFile=Assets\LICENSE_page
 
 DisableWelcomePage=no

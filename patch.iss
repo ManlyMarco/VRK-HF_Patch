@@ -8,7 +8,7 @@
 ;----------------------------------------------------------------------------Current HF Patch version
 #define VERSION "1.0"
 ;----------------------------------------------------------------------------------------------------
-#include "_Common\Header.iss"
+#include "Assets\Header.iss"
 
 [Setup]
 AppName=HF Patch for VR Kanojo (Steam version)
