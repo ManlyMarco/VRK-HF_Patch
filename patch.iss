@@ -50,14 +50,14 @@ Name: "Patch"; Description: "Unlock R18 content + game repair"; Types: full_en f
 
 [Files]
 Source: "HelperLib.dll";                  DestDir: "{app}"                 ; Flags: dontcopy
-Source: "Input\VR_Kanojo_ChangeResolution.bat" ;DestDir: "{app}"           ; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "Input\VR_Kanojo_ChangeResolution.bat" ;DestDir: "{app}"
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\restore\*";         DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: Patch
 Source: "Input\_Patch\hpatch\*";          DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: Patch
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\BepInEx_config\*";         DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: BepInEx
-Source: "Input\UncensorLoader.cfg";       DestDir: "{app}\BepInEx\config"  ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: XUnityResourceRedirector\Selector\Pack
+Source: "Input\UncensorLoader.cfg";       DestDir: "{app}\BepInEx\config"  ;    Components: XUnityResourceRedirector\Selector\Pack
 
 #include "components.iss"
 
