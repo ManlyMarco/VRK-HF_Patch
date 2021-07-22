@@ -1,4 +1,4 @@
-# BepInEx v5.4.5
+# BepInEx v5.4.12.0
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -8,12 +8,12 @@
 - Author(s):         https://github.com/denikson
 - More information:  https://github.com/denikson/BepInEx.ScriptLoader
 
-# Collection of male and female uncensors up to 22/01/2021
+# Collection of male and female uncensors up to 22/07/2021
 - Short description: Dynamically loaded, no game files are replaced
 - Author(s):         ManlyMarco
 - More information:  ???
 
-# Configuration Manager v16.1
+# Configuration Manager v16.3
 - Short description: Can change plugin settings. Press F1 to open, not visible inside HMD
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
@@ -53,7 +53,7 @@
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/VRKanojo_Plugins
 
-# Runtime Unity Editor v2.2.1.0
+# Runtime Unity Editor v2.4.0.0
 - Short description: Tool for making arbitrary modifications to the game, press F12 or Pause key
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor

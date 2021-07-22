@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "VR Kanojo"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.0"
+#define VERSION "1.1"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -26,6 +26,9 @@ LZMANumFastBytes=273
 LZMANumBlockThreads=5
 ;DiskSpanning=yes
 DefaultDirName=C:\Program Files (x86)\Steam\steamapps\common\VR_Kanojo\
+
+;WindowResizable=yes
+WizardStyle=modern
 
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"
@@ -50,14 +53,13 @@ Name: "Patch"; Description: "Unlock R18 content + game repair"; Types: full_en f
 
 [Files]
 Source: "HelperLib.dll";                  DestDir: "{app}"                 ; Flags: dontcopy
-Source: "Input\VR_Kanojo_ChangeResolution.bat" ;DestDir: "{app}"
+Source: "Input\VR_Kanojo_ChangeResolution.bat"; DestDir: "{app}"
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\restore\*";         DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: Patch
 Source: "Input\_Patch\hpatch\*";          DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: Patch
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\BepInEx_config\*";         DestDir: "{app}"                 ; Flags: ignoreversion recursesubdirs createallsubdirs;   Components: BepInEx
-Source: "Input\UncensorLoader.cfg";       DestDir: "{app}\BepInEx\config"  ;    Components: XUnityResourceRedirector\Selector\Pack
 
 #include "components.iss"
 

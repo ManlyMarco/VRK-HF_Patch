@@ -1,8 +1,8 @@
 [Components]
-Name: "BepInEx";                               Description: "BepInEx v5.4.5 (Plugin framework)"                                                    ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "BepInEx\Dev";                           Description: "{cm:CompDev}"                                                                         
+ Name: "BepInEx";                               Description: "BepInEx v5.4.12 (Plugin framework)"                                                 ; Types: full_en full extra extra_en custom bare; Flags: fixed
+Name: "BepInEx\Dev";                           Description: "{cm:CompDev}"                                                                
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v1.1.1 (Allows plugins to show messages in top left corner of the game)"; Types: full_en full extra extra_en custom bare
-Name: "BepInEx\ConfigurationManager";          Description: "Configuration Manager v16.1 (Can change plugin settings. Press F1 to open, not visible inside HMD)"; Types: full_en full extra extra_en custom bare
+Name: "BepInEx\ConfigurationManager";          Description: "Configuration Manager v16.3 (Can change plugin settings. Press F1 to open, not visible inside HMD)"; Types: full_en full extra extra_en custom bare
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "XUnityResourceRedirector";              Description: "XUnity Resource Redirector v1.1.3 (Modding API for overriding resources)"             ; Types: full_en full extra extra_en custom bare
 Name: "XUnityResourceRedirector\Selector";     Description: "Uncensor Selector v1.0 (Support for user-selectable uncensors, change in plugin settings)"; Types: full_en full extra extra_en
@@ -20,7 +20,7 @@ Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\FPS";                              Description: "FPS Counter v3.1 (Useful for performance testing)"                                    ; Types: full_en full extra extra_en
-Name: "MISC\Trainer";                          Description: "Runtime Unity Editor v2.2.1.0 (Tool for making arbitrary modifications to the game, press F12 or Pause key)"; Types: full_en full extra extra_en
+Name: "MISC\Trainer";                          Description: "Runtime Unity Editor v2.4.0.0 (Tool for making arbitrary modifications to the game, press F12 or Pause key)"; Types: full_en full extra extra_en
 Name: "MISC\ScriptLoader";                     Description: "C# Script Loader v1.2.4 (Runs custom user scripts)"                                   ; Types: full_en full extra extra_en
 Name: "MISC\FullSave";                         Description: "Full save (WARNING - OVERWRITES CURRENT SAVE)"                                        
 
