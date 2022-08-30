@@ -11,6 +11,7 @@ An unofficial patch for [VR Kanojo](https://store.steampowered.com/app/751440/VR
 - Please leave the modders some positive feedback or help them in some other way!
 - There is no warranty on this patch or on any of the included mods. You are installing this patch at your own risk.
 - [Read the full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) for more information.
+- If you want to run the game under Wine/Proton (Linux, SteamOS, macOS, etc.), read [this](https://github.com/Mantas-2155X/illusion-wine-guide) and [this](https://docs.bepinex.dev/articles/advanced/proton_wine.html).*
 
 ## Download
 Check the [Releases](https://github.com/ManlyMarco/VRK-HF_Patch/releases) page for download links.
