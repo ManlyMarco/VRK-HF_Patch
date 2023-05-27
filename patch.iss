@@ -163,6 +163,24 @@ begin
 
   if (CurPageID = wpSelectDir) then
   begin
+    if Result = True then
+    begin
+      if (FileExists(ExpandConstant('{app}\EmotionCreators.exe'))
+      or FileExists(ExpandConstant('{app}\Koikatu.exe'))
+      or FileExists(ExpandConstant('{app}\Koikatsu Party.exe'))
+      or FileExists(ExpandConstant('{app}\KoikatsuSunshine.exe'))
+      or FileExists(ExpandConstant('{app}\KoiKoiMonogatari.exe'))
+      or FileExists(ExpandConstant('{app}\KoiKoiMonogatariVR.exe'))
+      or FileExists(ExpandConstant('{app}\PlayHome.exe'))
+      or FileExists(ExpandConstant('{app}\HoneySelect2.exe'))
+      or FileExists(ExpandConstant('{app}\AI-Syoujyo.exe'))
+      or FileExists(ExpandConstant('{app}\AI-Shoujo.exe'))) then
+      begin
+        MsgBox('It looks like a different game is installed to the selected directory. This is very likely to break one or both of the games, and to break the patch.' + #13#10 + #13#10 + 'Make sure you selected the correct directory, and that you downloaded the correct patch for your game. If you installed 2 games to the same directory you will have to reinstall them both to separate directories to fix this.', mbError, MB_OK);
+        Result := False;
+      end
+    end;
+    
     if (not FileExists(ExpandConstant('{app}\VR_Kanojo_Data\resources.assets'))) then
     begin
       if(SuppressibleMsgBox(ExpandConstant('{cm:MsgExeNotFound}'), mbError, MB_YESNO, 0) = IDNO) then
@@ -183,21 +201,6 @@ begin
       if (Pos(LowerCase(ExpandConstant('{app}\')), LowerCase(ExpandConstant('{src}\'))) > 0) then
       begin
         MsgBox('This patch is inside of the game directory you are attempting to install to. You have to move the patch files outside of the game directory and try again.', mbError, MB_OK);
-        Result := False;
-      end
-    end;
-
-    if Result = True then
-    begin
-      if (FileExists(ExpandConstant('{app}\EmotionCreators.exe'))
-      or FileExists(ExpandConstant('{app}\Koikatu.exe'))
-      or FileExists(ExpandConstant('{app}\Koikatsu Party.exe'))
-      or FileExists(ExpandConstant('{app}\PlayHome.exe'))
-      or FileExists(ExpandConstant('{app}\HoneySelect2.exe'))
-      or FileExists(ExpandConstant('{app}\AI-Syoujyo.exe'))
-      or FileExists(ExpandConstant('{app}\AI-Shoujo.exe'))) then
-      begin
-        MsgBox('It looks like a different game is installed to the selected directory. This is very likely to break one or both of the games, and to break the patch.' + #13#10 + #13#10 + 'Make sure you selected the correct directory, and that you downloaded the correct patch for your game. If you installed 2 games to the same directory you will have to reinstall them both to separate directories to fix this.', mbError, MB_OK);
         Result := False;
       end
     end;
