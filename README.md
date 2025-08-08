@@ -1,6 +1,6 @@
 ![preview](https://user-images.githubusercontent.com/39247311/105546483-bd756200-5cfd-11eb-84aa-9b7c18c39054.png)
-# HF Patch for VR Kanojo (Steam version)
-An unofficial patch for [VR Kanojo](https://store.steampowered.com/app/751440/VR_Kanojo__VR/) with all free updates, fully modeled uncensors and essential mods. This patch is meant for the Steam version of the game.
+# HF Patch for VR Kanojo (original Steam version)
+An unofficial patch for [VR Kanojo](https://store.steampowered.com/app/751440/VR_Kanojo__VR/) with all free updates, fully modeled uncensors and essential mods. This patch is meant for the original Steam version of the game from 2018. It does not work on the new version of the game released in 2025.
 
 [**Read the full HF Patch manual**](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) to learn more about what it is, what it does, how to use it, and how to solve common issues.
 
